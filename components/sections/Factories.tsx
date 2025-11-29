@@ -104,6 +104,10 @@ export const Factories: React.FC = () => {
             <span className="flex items-center gap-2"><Layers className="text-green-500"/> 应用业务层：通用、垂直应用 (App)</span>
           </h3>
           
+          <p className="text-slate-400 mb-6 pl-2 max-w-4xl">
+            理解业务背景，意图驱动+快速迭代，集成开发环境 (IDE)或者画布(Canvas) 概念将扩展至所有知识工作者。
+          </p>
+
           <div className="bg-gradient-to-br from-slate-900 to-slate-950 p-8 rounded-2xl border border-slate-800 shadow-xl">
             <div className="mb-6">
                <h4 className="text-lg font-semibold text-white mb-2 flex items-center gap-2">

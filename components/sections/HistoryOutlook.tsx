@@ -6,7 +6,6 @@ import { TrendingUp, AlertTriangle, Lightbulb } from 'lucide-react';
 const data = [
   { name: 'Cisco (.com Peak)', pe: 30, type: 'Infrastructure' },
   { name: 'Nvidia (AI Era)', pe: 38, type: 'Infrastructure' },
-  { name: 'Cloud ASICs', pe: 0, type: 'Challenger', note: 'Efficiency' }, 
 ];
 
 const CustomTooltip = ({ active, payload, label }: any) => {
