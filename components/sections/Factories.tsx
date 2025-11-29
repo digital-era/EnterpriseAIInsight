@@ -20,7 +20,7 @@ const agentData: AgentData[] = [
 
 export const Factories: React.FC = () => {
   return (
-    <Section id="factories" title="第二部分：AI软件工厂的三层架构" subtitle="AI软件工厂的构建可以被划分为三个核心层：关注效率的算力层(Token Factory)，关注价值最大化的应用服务器层(Agent Factory)，以及关注可快速迭代的应用业务层(App)。">
+    <Section id="factories" title="第二部分：AI软件工厂的三层架构" subtitle="AI软件工厂的构建可以被划分为三个核心层：关注效率的算力层(Token Factory)，关注价值最大化的应用服务器层(Agent Factory)，以及关注零摩擦可快速迭代的应用业务层(App)。">
       
       {/* Layer A: Token Factory */}
       <div className="mb-20 relative">
@@ -105,7 +105,7 @@ export const Factories: React.FC = () => {
           </h3>
           
           <p className="text-slate-400 mb-6 pl-2 max-w-4xl">
-            理解业务背景，意图驱动，可快速迭代，集成开发环境 (IDE)或者画布(Canvas) 概念将扩展至所有知识工作者。
+            理解业务背景，意图驱动，零摩擦使用成本，可快速迭代，集成开发环境 (IDE)或者画布(Canvas) 概念将扩展至所有知识工作者。
           </p>
 
           <div className="bg-gradient-to-br from-slate-900 to-slate-950 p-8 rounded-2xl border border-slate-800 shadow-xl">
