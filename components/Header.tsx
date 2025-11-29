@@ -36,7 +36,7 @@ export const Header: React.FC = () => {
            <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center">
              <span className="text-white font-bold">AI</span>
            </div>
-           <span>Sovereignty<span className="text-brand-500">.Report</span></span>
+           <span>Enterprise<span className="text-brand-500"> Report</span></span>
         </div>
 
         {/* Desktop Nav */}

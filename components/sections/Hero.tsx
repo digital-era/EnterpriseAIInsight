@@ -17,11 +17,11 @@ export const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
-          AI时代的<span className="gradient-text">模型主权</span>争夺战
+          AI时代<span className="gradient-text">企业核心竞争力的重构</span>与隐性知识的固化
         </h1>
         
         <p className="text-xl md:text-2xl text-slate-400 mb-10 max-w-3xl mx-auto leading-relaxed">
-          从算力代工厂到Agent软件工厂：企业核心竞争力的重构与隐性知识的固化
+          从算力代工厂到Agent软件工厂
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
