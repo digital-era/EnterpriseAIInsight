@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-slate-400 mb-10 max-w-3xl mx-auto leading-relaxed">
-          从算力代工厂到Agent软件工厂
+          建立高效、可治理的“AI软件工厂”
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
