@@ -68,7 +68,7 @@ export const Factories: React.FC = () => {
         <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-indigo-500 to-transparent opacity-50 hidden md:block"></div>
         <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
           <span className="flex items-center justify-center w-8 h-8 rounded bg-indigo-900/50 text-indigo-400 text-sm font-bold border border-indigo-800">B</span>
-          <span className="flex items-center gap-2"><Bot className="text-brand-500" /> 应用服务器层：Agent Factory</span>
+          <span className="flex items-center gap-2"><Bot className="text-brand-500" /> 应用服务器层：代理工厂(Agent Factory)</span>
         </h3>
         <p className="text-slate-400 mb-6 pl-2">
           关注每个Token的价值最大化。瓶颈已不再是模型智力，而是互操作性、身份验证和事务处理。
@@ -101,7 +101,7 @@ export const Factories: React.FC = () => {
           <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-green-500 to-transparent opacity-50 hidden md:block"></div>
           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
             <span className="flex items-center justify-center w-8 h-8 rounded bg-green-900/50 text-green-400 text-sm font-bold border border-green-800">C</span>
-            <span className="flex items-center gap-2"><Layers className="text-green-500"/> 应用业务层：平台战略 (App Layer)</span>
+            <span className="flex items-center gap-2"><Layers className="text-green-500"/> 应用业务层：通用、垂直应用 (App)</span>
           </h3>
           
           <div className="bg-gradient-to-br from-slate-900 to-slate-950 p-8 rounded-2xl border border-slate-800 shadow-xl">
