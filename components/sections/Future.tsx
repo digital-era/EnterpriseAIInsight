@@ -22,60 +22,73 @@ export const FutureAndGovernance: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-        <div>
+        <div className="flex flex-col h-full">
            <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
              <Workflow className="text-brand-500" /> 代理工作流 (Agentic Workflows)
            </h3>
-           <div className="space-y-6">
-             <Card title="全民 IDE：审查与迭代">
-               <p className="text-slate-400 text-sm mb-3">
+           <div className="flex-1 flex flex-col gap-6">
+             <Card title="全民 IDE：审查与迭代" className="flex-1">
+               <p className="text-slate-400 text-sm mb-4 leading-relaxed">
                  Agent 的自主性不代表人类缺席。知识工作者（律师、会计师）将需要类似 IDE 的环境来审查、干预 AI 的输出。
                </p>
-               <div className="bg-slate-800/50 p-3 rounded text-sm text-slate-300 border-l-2 border-brand-500">
-                 Palantir AIP 提供了这种环境，确保 AI 建议在可理解的业务背景下呈现，而非黑箱。
+               <div className="bg-slate-800/50 p-4 rounded-lg text-sm text-slate-300 border-l-2 border-brand-500 mt-auto">
+                 <strong className="block mb-1 text-white">Palantir AIP 解决方案</strong>
+                 Ontology-based decision support 确保 AI 建议在可理解的业务背景下呈现，而非黑箱。提供强制性的人为监督工作流 (Human Oversight Workflows)。
                </div>
              </Card>
-             <Card title="Agentic Commerce">
-                <p className="text-slate-400 text-sm">
-                   通过 MCP 和 A2A 协议，Agent 将能够自主完成购买旅程。零售商必须构建 Agent-ready 的接口，并重新思考身份管理。
+             <Card title="Agentic Commerce" className="flex-1">
+                <p className="text-slate-400 text-sm leading-relaxed">
+                   通过 MCP 和 A2A 协议，Agent 将能够自主完成购买旅程。零售商必须构建 Agent-ready 的接口，并重新思考身份管理和忠诚度模型，以适应数万亿美元的 Agent 经济。
                 </p>
              </Card>
            </div>
         </div>
 
-        <div>
+        <div className="flex flex-col h-full">
            <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
              <Search className="text-brand-500" /> 商业化与知识服务
            </h3>
-           <Card title="Perplexity: AI原生搜索" className="mb-6">
-              <p className="text-slate-400 text-sm mb-4">
-                 通过提供高信任度、实时、可引用来源的外部研究能力构建壁垒。
-              </p>
-              <div className="flex gap-2 flex-wrap">
-                 <span className="px-2 py-1 bg-green-900/30 text-green-400 text-xs rounded border border-green-800">SOC 2 Type II</span>
-                 <span className="px-2 py-1 bg-green-900/30 text-green-400 text-xs rounded border border-green-800">不用于训练</span>
-                 <span className="px-2 py-1 bg-green-900/30 text-green-400 text-xs rounded border border-green-800">实时引用</span>
-              </div>
-           </Card>
-            <Card title="OpenAI & Anthropic 生态">
-              <p className="text-slate-400 text-sm">
-                 <strong>OpenAI AgentKit:</strong> 商业化的“简单按钮”，可视化的 Agent 构建器。<br/>
-                 <strong>Anthropic Protocols:</strong> 专注于支付与互操作性协议 (AP2)，做 Agent 经济的基石。
-              </p>
-           </Card>
+           <div className="flex-1 flex flex-col gap-6">
+              <Card title="Perplexity: AI原生搜索" className="flex-1">
+                  <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+                    Perplexity Enterprise 代表了AI驱动下的知识发现新商业模式。通过提供高信任度、实时、可引用来源的外部研究能力构建商业壁垒。
+                  </p>
+                  <div className="bg-slate-800/50 p-4 rounded-lg border-l-2 border-green-500 mt-auto">
+                     <div className="text-sm text-slate-300 mb-2 font-medium text-white">信任与合规壁垒：</div>
+                     <div className="flex gap-2 flex-wrap">
+                        <span className="px-2 py-1 bg-green-900/20 text-green-400 text-xs rounded border border-green-800/50">SOC 2 Type II</span>
+                        <span className="px-2 py-1 bg-green-900/20 text-green-400 text-xs rounded border border-green-800/50">不用于训练</span>
+                        <span className="px-2 py-1 bg-green-900/20 text-green-400 text-xs rounded border border-green-800/50">实时引用</span>
+                     </div>
+                  </div>
+              </Card>
+              <Card title="OpenAI & Anthropic 生态" className="flex-1">
+                  <div className="space-y-4">
+                    <div>
+                      <strong className="text-white block text-sm mb-1">OpenAI AgentKit</strong>
+                      <p className="text-slate-400 text-sm">商业化的“简单按钮”，可视化的 Agent 构建器，允许商家轻松嵌入 Agent 功能。</p>
+                    </div>
+                    <div className="w-full h-px bg-white/5"></div>
+                    <div>
+                      <strong className="text-white block text-sm mb-1">Anthropic Protocols</strong>
+                      <p className="text-slate-400 text-sm">专注于支付与互操作性协议 (AP2/MCP)，做 Agent 经济的基础设施与连接器。</p>
+                    </div>
+                  </div>
+              </Card>
+           </div>
         </div>
       </div>
 
       <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
           <ShieldAlert className="text-brand-500" /> 企业AI治理架构深度对比
       </h3>
-      <div className="overflow-hidden rounded-xl border border-slate-800">
+      <div className="overflow-hidden rounded-xl border border-slate-800 shadow-xl">
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-slate-900/80 divide-y md:divide-y-0 md:divide-x divide-slate-800">
             {governanceData.map((item, idx) => (
-                <div key={idx} className="p-6 hover:bg-slate-800/50 transition-colors">
-                    <div className="font-bold text-white mb-2">{item.platform}</div>
-                    <div className="text-brand-400 text-xs font-semibold uppercase mb-3">{item.mechanism}</div>
-                    <p className="text-sm text-slate-400 leading-snug">{item.sovereignty}</p>
+                <div key={idx} className="p-6 hover:bg-slate-800/50 transition-colors flex flex-col h-full">
+                    <div className="font-bold text-white mb-2 text-lg">{item.platform}</div>
+                    <div className="text-brand-400 text-xs font-bold uppercase mb-4 tracking-wider">{item.mechanism}</div>
+                    <p className="text-sm text-slate-400 leading-relaxed mt-auto">{item.sovereignty}</p>
                 </div>
             ))}
          </div>
