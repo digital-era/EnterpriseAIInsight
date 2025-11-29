@@ -21,38 +21,44 @@ export const FutureAndGovernance: React.FC = () => {
          <StatCard label="NVIDIA Share" value="90%" desc="目前在GPU-based AI芯片领域的市场份额" />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 items-stretch">
         <div className="flex flex-col h-full">
-           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2 h-10">
              <Workflow className="text-brand-500" /> 代理工作流 (Agentic Workflows)
            </h3>
            <div className="flex-1 flex flex-col gap-6">
-             <Card title="全民 IDE：审查与迭代" className="flex-1">
-               <p className="text-slate-400 text-sm mb-4 leading-relaxed">
-                 Agent 的自主性不代表人类缺席。知识工作者（律师、会计师）将需要类似 IDE 的环境来审查、干预 AI 的输出。
-               </p>
+             <Card title="全民 IDE：审查与迭代" className="flex-1 flex flex-col">
+               <div className="flex-1">
+                 <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+                   Agent 的自主性不代表人类缺席。知识工作者（律师、会计师）将需要类似 IDE 的环境来审查、干预 AI 的输出。
+                 </p>
+               </div>
                <div className="bg-slate-800/50 p-4 rounded-lg text-sm text-slate-300 border-l-2 border-brand-500 mt-auto">
                  <strong className="block mb-1 text-white">Palantir AIP 解决方案</strong>
                  Ontology-based decision support 确保 AI 建议在可理解的业务背景下呈现，而非黑箱。提供强制性的人为监督工作流 (Human Oversight Workflows)。
                </div>
              </Card>
-             <Card title="Agentic Commerce" className="flex-1">
-                <p className="text-slate-400 text-sm leading-relaxed">
-                   通过 MCP 和 A2A 协议，Agent 将能够自主完成购买旅程。零售商必须构建 Agent-ready 的接口，并重新思考身份管理和忠诚度模型，以适应数万亿美元的 Agent 经济。
-                </p>
+             <Card title="Agentic Commerce" className="flex-1 flex flex-col">
+                <div className="flex-1">
+                  <p className="text-slate-400 text-sm leading-relaxed">
+                     通过 MCP 和 A2A 协议，Agent 将能够自主完成购买旅程。零售商必须构建 Agent-ready 的接口，并重新思考身份管理和忠诚度模型，以适应数万亿美元的 Agent 经济。
+                  </p>
+                </div>
              </Card>
            </div>
         </div>
 
         <div className="flex flex-col h-full">
-           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2 h-10">
              <Search className="text-brand-500" /> 商业化与知识服务
            </h3>
            <div className="flex-1 flex flex-col gap-6">
-              <Card title="Perplexity: AI原生搜索" className="flex-1">
-                  <p className="text-slate-400 text-sm mb-4 leading-relaxed">
-                    Perplexity Enterprise 代表了AI驱动下的知识发现新商业模式。通过提供高信任度、实时、可引用来源的外部研究能力构建商业壁垒。
-                  </p>
+              <Card title="Perplexity: AI原生搜索" className="flex-1 flex flex-col">
+                  <div className="flex-1">
+                    <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+                      Perplexity Enterprise 代表了AI驱动下的知识发现新商业模式。通过提供高信任度、实时、可引用来源的外部研究能力构建商业壁垒。
+                    </p>
+                  </div>
                   <div className="bg-slate-800/50 p-4 rounded-lg border-l-2 border-green-500 mt-auto">
                      <div className="text-sm text-slate-300 mb-2 font-medium text-white">信任与合规壁垒：</div>
                      <div className="flex gap-2 flex-wrap">
@@ -62,8 +68,8 @@ export const FutureAndGovernance: React.FC = () => {
                      </div>
                   </div>
               </Card>
-              <Card title="OpenAI & Anthropic 生态" className="flex-1">
-                  <div className="space-y-4">
+              <Card title="OpenAI & Anthropic 生态" className="flex-1 flex flex-col">
+                  <div className="space-y-4 flex-1">
                     <div>
                       <strong className="text-white block text-sm mb-1">OpenAI AgentKit</strong>
                       <p className="text-slate-400 text-sm">商业化的“简单按钮”，可视化的 Agent 构建器，允许商家轻松嵌入 Agent 功能。</p>
