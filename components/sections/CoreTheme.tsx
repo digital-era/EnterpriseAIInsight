@@ -35,7 +35,7 @@ export const CoreTheme: React.FC = () => {
         </h3>
         <p className="text-slate-300 mb-6">
           企业AI面临的三大挑战——变革管理、合规性与数据架构——正被“无摩擦治理”重新定义。
-          未来的竞争不在于谁的模型更强，而在于谁能将数据安全、合规性、审计追踪内置于底层架构中。
+          未来的竞争不仅在于谁的模型更强，同时在于谁能将数据安全、合规性、审计追踪内置于底层架构中。
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
