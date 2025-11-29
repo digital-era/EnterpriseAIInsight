@@ -13,11 +13,11 @@ export const Hero: React.FC = () => {
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-sm font-medium mb-6">
           <Globe size={14} />
-          <span>全球AI生态圈深度报告</span>
+          <span>全球AI企业战略深度报告</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
-          AI时代<span className="gradient-text">企业核心竞争力的重构</span>与隐性知识的固化
+          AI时代<span className="gradient-text">企业核心竞争力</span>的重构
         </h1>
         
         <p className="text-xl md:text-2xl text-slate-400 mb-10 max-w-3xl mx-auto leading-relaxed">
