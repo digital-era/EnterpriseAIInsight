@@ -20,7 +20,7 @@ const agentData: AgentData[] = [
 
 export const Factories: React.FC = () => {
   return (
-    <Section id="factories" title="第二部分：AI软件工厂的三层架构" subtitle="AI软件工厂的构建可以被划分为三个核心层：关注效率的算力层(Token Factory)，关注价值最大化的应用服务器层(Agent Factory)，以及最上层的应用业务层(App)。">
+    <Section id="factories" title="第二部分：AI软件工厂的三层架构" subtitle="AI软件工厂的构建可以被划分为三个核心层：关注效率的算力层(Token Factory)，关注价值最大化的应用服务器层(Agent Factory)，以及关注可快速迭代的应用业务层(App)。">
       
       {/* Layer A: Token Factory */}
       <div className="mb-20 relative">
@@ -30,7 +30,7 @@ export const Factories: React.FC = () => {
           <span className="flex items-center gap-2"><Cpu className="text-brand-500" /> 基础设施层：算力代工厂 (Token Factory)</span>
         </h3>
         <p className="text-slate-400 mb-6 max-w-4xl pl-2">
-          基础设施竞争的焦点已经发生结构性转移。NVIDIA 仍主导高价值训练市场，但推理市场正在被云巨头的定制 ASICs 颠覆。竞争核心从“原始算力”转向“Token效率 (瓦特/美元)”。
+          基础设施竞争的焦点已经发生结构性转移。NVIDIA 仍主导高价值训练市场，但推理市场正在被云巨头的定制 ASICs 挑战。竞争核心从“原始算力”转向“Token效率 (瓦特/美元)”。
         </p>
         
         <div className="overflow-x-auto rounded-xl border border-slate-800 bg-slate-900/50 shadow-lg">
@@ -105,7 +105,7 @@ export const Factories: React.FC = () => {
           </h3>
           
           <p className="text-slate-400 mb-6 pl-2 max-w-4xl">
-            理解业务背景，意图驱动+快速迭代，集成开发环境 (IDE)或者画布(Canvas) 概念将扩展至所有知识工作者。
+            理解业务背景，意图驱动，可快速迭代，集成开发环境 (IDE)或者画布(Canvas) 概念将扩展至所有知识工作者。
           </p>
 
           <div className="bg-gradient-to-br from-slate-900 to-slate-950 p-8 rounded-2xl border border-slate-800 shadow-xl">
