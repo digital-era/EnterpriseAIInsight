@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Globe, ShieldCheck, Database } from 'lucide-react';
+import { ArrowRight, Globe, ShieldCheck, Database, Bot } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -45,7 +45,7 @@ export const Hero: React.FC = () => {
             <p className="text-sm text-slate-400">不仅是使用模型，更是通过Fine-tuning掌控核心隐性知识与决策权。</p>
           </div>
           <div className="p-4 border border-white/5 rounded-lg bg-white/5 backdrop-blur-sm">
-            <div className="text-brand-400 mb-3 font-bold text-xl">Agent</div>
+            <Bot className="text-brand-400 mb-3" size={24} />
             <h3 className="text-white font-semibold mb-2">Agent Factory</h3>
             <p className="text-sm text-slate-400">从对话到行动，构建可治理、可审计的自动化业务本体论。</p>
           </div>
